@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swiftDelegateRick" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tLS-de-BZs" customClass="SelectionView" customModule="swiftDelegateRick" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="94" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="WoR-37-ZVi"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l0W-eC-cGN">
+                                <rect key="frame" x="0.0" y="144" width="414" height="100"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="woh-sU-yfk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bMf-qN-pHl" customClass="SelectionView" customModule="swiftDelegateRick" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="294" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ePH-U2-OCf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Zc-2i-YEf">
+                                <rect key="frame" x="0.0" y="344" width="414" height="100"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="AI4-kY-xkv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WxI-MM-0uO" customClass="SelectionView" customModule="swiftDelegateRick" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="494" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4aJ-3a-OjN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLi-Xw-idI">
+                                <rect key="frame" x="0.0" y="544" width="414" height="100"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Wsd-rQ-UUN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WxI-MM-0uO" secondAttribute="trailing" id="0yg-gD-jVF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PLi-Xw-idI" secondAttribute="trailing" id="1aF-ni-QWa"/>
+                            <constraint firstItem="bMf-qN-pHl" firstAttribute="top" secondItem="l0W-eC-cGN" secondAttribute="bottom" constant="50" id="2ji-11-ExF"/>
+                            <constraint firstItem="tLS-de-BZs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EYB-Or-ouf"/>
+                            <constraint firstItem="l0W-eC-cGN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EkN-96-vaT"/>
+                            <constraint firstItem="bMf-qN-pHl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EpT-P2-h6i"/>
+                            <constraint firstItem="0Zc-2i-YEf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gni-Bz-2qz"/>
+                            <constraint firstItem="tLS-de-BZs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HgX-uW-1eb"/>
+                            <constraint firstItem="0Zc-2i-YEf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QaC-uu-RYn"/>
+                            <constraint firstItem="WxI-MM-0uO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Sou-MY-Cry"/>
+                            <constraint firstItem="0Zc-2i-YEf" firstAttribute="top" secondItem="bMf-qN-pHl" secondAttribute="bottom" id="Z3b-BW-jaC"/>
+                            <constraint firstItem="WxI-MM-0uO" firstAttribute="top" secondItem="0Zc-2i-YEf" secondAttribute="bottom" constant="50" id="dr0-yC-fYJ"/>
+                            <constraint firstItem="l0W-eC-cGN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hrM-yW-Ma0"/>
+                            <constraint firstItem="l0W-eC-cGN" firstAttribute="top" secondItem="tLS-de-BZs" secondAttribute="bottom" id="lnN-a7-N7E"/>
+                            <constraint firstItem="bMf-qN-pHl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mRZ-Ry-J5n"/>
+                            <constraint firstItem="PLi-Xw-idI" firstAttribute="top" secondItem="WxI-MM-0uO" secondAttribute="bottom" id="nD8-aH-dQH"/>
+                            <constraint firstItem="PLi-Xw-idI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oQN-gr-CRr"/>
+                            <constraint firstItem="tLS-de-BZs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="yqe-f0-m0f"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomSelectionView" destination="bMf-qN-pHl" id="eXu-cM-bt1"/>
+                        <outlet property="bottomView" destination="0Zc-2i-YEf" id="x4i-Cs-rwo"/>
+                        <outlet property="testSelectionView" destination="WxI-MM-0uO" id="53W-O7-Xai"/>
+                        <outlet property="testView" destination="PLi-Xw-idI" id="D5g-Rp-cM8"/>
+                        <outlet property="topSelectionView" destination="tLS-de-BZs" id="Dsv-Gl-Kzj"/>
+                        <outlet property="topView" destination="l0W-eC-cGN" id="XHv-HZ-VJj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-662" y="-55"/>
+        </scene>
+    </scenes>
+</document>
