@@ -54,7 +54,6 @@ class ViewController: UIViewController {
         
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         //        loadGroupData()
@@ -63,14 +62,14 @@ class ViewController: UIViewController {
     func loadGroupData() {
         let group: DispatchGroup = DispatchGroup()
         let queue1 = DispatchQueue(label: "queue1", attributes: .concurrent)
-        group.enter() // 開始呼叫 API1
-        queue1.async(group: group) {
-            // Call 後端 API1
+        
+        queue1.async {
+            group.enter()
             let section = URLSession(configuration: .default)
             
-            let task = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=0")!) { (Data, response, error) in
+            let task1 = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=0")!) { (Data, response, error) in
                 
-                guard let data = Data else { return }
+                guard let data1 = Data else { return }
                 
                 guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else { return }
                 
@@ -78,7 +77,7 @@ class ViewController: UIViewController {
                     
                     let decoder = JSONDecoder()
                     
-                    let result = try decoder.decode(speedCamera.self, from: data)
+                    let result = try decoder.decode(speedCamera.self, from: data1)
                     
                     self.queue1DataRoad = result.result.results[0].road
                     
@@ -93,19 +92,13 @@ class ViewController: UIViewController {
                 
             }
             
-            task.resume()
+            task1.resume()
             
-        }
-        
-        //        let queue1 = DispatchQueue(label: "queue2", attributes: .concurrent)
-        group.enter() // 開始呼叫 API2
-        queue1.async(group: group) {
-            // Call 後端 API2
-            let section = URLSession(configuration: .default)
+            group.enter() // 開始呼叫 API2
             
-            let task = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=10")!) { (Data, response, error) in
+            let task2 = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=10")!) { (Data, response, error) in
                 
-                guard let data = Data else { return }
+                guard let data2 = Data else { return }
                 
                 guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else { return }
                 
@@ -113,7 +106,7 @@ class ViewController: UIViewController {
                     
                     let decoder = JSONDecoder()
                     
-                    let result = try decoder.decode(speedCamera.self, from: data)
+                    let result = try decoder.decode(speedCamera.self, from: data2)
                     
                     self.queue2DataRoad = result.result.results[0].road
                     
@@ -128,18 +121,13 @@ class ViewController: UIViewController {
                 
             }
             
-            task.resume()
+            task2.resume()
             
-        }
-        //        let queue3 = DispatchQueue(label: "queue3", attributes: .concurrent)
-        group.enter() // 開始呼叫 API3
-        queue1.async(group: group) {
-            // Call 後端 API3
-            let section = URLSession(configuration: .default)
+            group.enter() // 開始呼叫 API3
             
-            let task = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=20")!) { (Data, response, error) in
+            let task3 = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=20")!) { (Data, response, error) in
                 
-                guard let data = Data else { return }
+                guard let data3 = Data else { return }
                 
                 guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else { return }
                 
@@ -147,7 +135,7 @@ class ViewController: UIViewController {
                     
                     let decoder = JSONDecoder()
                     
-                    let result = try decoder.decode(speedCamera.self, from: data)
+                    let result = try decoder.decode(speedCamera.self, from: data3)
                     
                     self.queue3DataRoad = result.result.results[0].road
                     
@@ -162,7 +150,7 @@ class ViewController: UIViewController {
                 
             }
             
-            task.resume()
+            task3.resume()
             
         }
         
@@ -182,17 +170,19 @@ class ViewController: UIViewController {
         }
         
     }
+    
     func loadsemaphoreData() {
         
-        //        let semaphoreInit = DispatchSemaphore(value: 1)
         let semaphoreSec = DispatchSemaphore(value: 0)
+        
         let semaphoreLast = DispatchSemaphore(value: 0)
+        
         DispatchQueue.global().async {
             let section = URLSession(configuration: .default)
             
-            let task = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=0")!) { (Data, response, error) in
+            let task1 = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=0")!) { (Data, response, error) in
                 
-                guard let data = Data else { return }
+                guard let data1 = Data else { return }
                 
                 guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else { return }
                 
@@ -200,7 +190,7 @@ class ViewController: UIViewController {
                     
                     let decoder = JSONDecoder()
                     
-                    let result = try decoder.decode(speedCamera.self, from: data)
+                    let result = try decoder.decode(speedCamera.self, from: data1)
                     DispatchQueue.main.async {
                         
                         self.queue1DataRodeLabel.text = result.result.results[0].road
@@ -208,7 +198,7 @@ class ViewController: UIViewController {
                         self.queue1DataSLLabel.text = result.result.results[0].speedLimit
                         
                     }
-
+                    
                     semaphoreSec.signal()
                     
                 } catch {
@@ -218,18 +208,13 @@ class ViewController: UIViewController {
                 
             }
             
-            task.resume()
-            
-        }
-        DispatchQueue.global().async {
+            task1.resume()
             
             semaphoreSec.wait()
             
-            let section = URLSession(configuration: .default)
-            
-            let task = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=10")!) { (Data, response, error) in
+            let task2 = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=10")!) { (Data, response, error) in
                 
-                guard let data = Data else { return }
+                guard let data2 = Data else { return }
                 
                 guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else { return }
                 
@@ -237,15 +222,13 @@ class ViewController: UIViewController {
                     
                     let decoder = JSONDecoder()
                     
-                    let result = try decoder.decode(speedCamera.self, from: data)
+                    let result = try decoder.decode(speedCamera.self, from: data2)
                     DispatchQueue.main.async {
                         
                         self.queue2DataRodeLabel.text = result.result.results[0].road
                         
                         self.queue2DataSLLabel.text = result.result.results[0].speedLimit
                     }
-                    
-                    print(self.queue2DataRoad, self.queue2DataspeedLimit)
                     
                     semaphoreLast.signal()
                     
@@ -256,14 +239,9 @@ class ViewController: UIViewController {
                 
             }
             
-            task.resume()
-            
-        }
-        DispatchQueue.global().async {
+            task2.resume()
             
             semaphoreLast.wait()
-            
-            let section = URLSession(configuration: .default)
             
             let task = section.dataTask(with: URL(string: "https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=5012e8ba-5ace-4821-8482-ee07c147fd0a&limit=1&offset=20")!) { (Data, response, error) in
                 
@@ -283,8 +261,6 @@ class ViewController: UIViewController {
                         
                         self.queue3DataSLLabel.text = result.result.results[0].speedLimit
                     }
-
-                    print(self.queue3DataRoad, self.queue3DataspeedLimit)
                     
                 } catch {
                     
