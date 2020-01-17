@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047700ACEF7F6485B31F8826EDE98D7E /* KKBOXOpenAPITypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E27BC7F8A40DE9E8771DC51EB16CE9 /* KKBOXOpenAPITypes.swift */; };
+		0E2E2B01FE4D6F94CF6EDBC168E2B0A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		1EAAD6AE0F65675DA6FBE075AABD7A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		303677812E8C9BC76D2EB10F5C1001D2 /* KKBOXOpenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E69C1B1AB146F3437F95DAAABCC52 /* KKBOXOpenAPI.swift */; };
+		45685AC43CBE330D34B596EA8F60B846 /* Pods-AppSchoolKKboxRick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF5EA5B9105FE5E349F2C22523A3BAF /* Pods-AppSchoolKKboxRick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FDEE62339D5B4645CFDE807548C84F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		5A3BB5578E2335136B7A78F9356F5E4F /* KKBOXOpenAPISwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1867277A40C2309AA0C0B9429B80C53 /* KKBOXOpenAPISwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79908C9021ABA742B2E29150565A928B /* KKBOXOpenAPISwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A465E21DB89BB598D80B36FB516BB96C /* KKBOXOpenAPISwift-dummy.m */; };
+		8DD1180814C8474B4294469D66BAF532 /* KKBOXOpenAPIPrivateTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2AAB08385C812F285E7EC18221EC3 /* KKBOXOpenAPIPrivateTypes.swift */; };
+		9EF419DE0AD9627BBE8F27D6FBF7F43B /* Pods-AppSchoolKKboxRick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8C2EBA5CF44006D0D481450E053A33 /* Pods-AppSchoolKKboxRick-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DB268AE6D46939C094912A0696F40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCEC34391670838A54E4438FFD88A18;
+			remoteInfo = KKBOXOpenAPISwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		129DC498E38F8CB57CCDC62D4628E8F2 /* Pods-AppSchoolKKboxRick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppSchoolKKboxRick-Info.plist"; sourceTree = "<group>"; };
+		239B21A666F64D5F1C50F9C2C9BC94B6 /* KKBOXOpenAPISwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKBOXOpenAPISwift.framework; path = KKBOXOpenAPISwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF5EA5B9105FE5E349F2C22523A3BAF /* Pods-AppSchoolKKboxRick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppSchoolKKboxRick-umbrella.h"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46E27BC7F8A40DE9E8771DC51EB16CE9 /* KKBOXOpenAPITypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KKBOXOpenAPITypes.swift; path = Sources/KKBOXOpenAPISwift/KKBOXOpenAPITypes.swift; sourceTree = "<group>"; };
+		5EB2AAB08385C812F285E7EC18221EC3 /* KKBOXOpenAPIPrivateTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KKBOXOpenAPIPrivateTypes.swift; path = Sources/KKBOXOpenAPISwift/KKBOXOpenAPIPrivateTypes.swift; sourceTree = "<group>"; };
+		79A2757D40EC176E6950F07140464997 /* Pods-AppSchoolKKboxRick-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppSchoolKKboxRick-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80C5866C13F32D037E99AC8CC80E2931 /* Pods-AppSchoolKKboxRick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppSchoolKKboxRick.debug.xcconfig"; sourceTree = "<group>"; };
+		8120CB429CF57108D0D1784D3C35F99D /* Pods-AppSchoolKKboxRick-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppSchoolKKboxRick-acknowledgements.plist"; sourceTree = "<group>"; };
+		881A554F6DC0DCC0D3DD0399DFF371AC /* Pods-AppSchoolKKboxRick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppSchoolKKboxRick.release.xcconfig"; sourceTree = "<group>"; };
+		89A86DD6A38DCAB16BC941720B7DD39E /* Pods_AppSchoolKKboxRick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppSchoolKKboxRick.framework; path = "Pods-AppSchoolKKboxRick.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		908F2A86B3A2107194FE2D5166FBF231 /* KKBOXOpenAPISwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKBOXOpenAPISwift.xcconfig; sourceTree = "<group>"; };
+		9400538B0F1526090E590A3E882F91E0 /* Pods-AppSchoolKKboxRick-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppSchoolKKboxRick-frameworks.sh"; sourceTree = "<group>"; };
+		9786A8179B077506B880E506F0D35201 /* KKBOXOpenAPISwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKBOXOpenAPISwift.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A465E21DB89BB598D80B36FB516BB96C /* KKBOXOpenAPISwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKBOXOpenAPISwift-dummy.m"; sourceTree = "<group>"; };
+		AF8C2EBA5CF44006D0D481450E053A33 /* Pods-AppSchoolKKboxRick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppSchoolKKboxRick-dummy.m"; sourceTree = "<group>"; };
+		B3C6BAF8D4EA38BBF4BEF8D71C601D7B /* KKBOXOpenAPISwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKBOXOpenAPISwift-prefix.pch"; sourceTree = "<group>"; };
+		D91E69C1B1AB146F3437F95DAAABCC52 /* KKBOXOpenAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KKBOXOpenAPI.swift; path = Sources/KKBOXOpenAPISwift/KKBOXOpenAPI.swift; sourceTree = "<group>"; };
+		E2EA4E7B4A011C877BAB87F3B242F619 /* Pods-AppSchoolKKboxRick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppSchoolKKboxRick.modulemap"; sourceTree = "<group>"; };
+		E7743D340F9B6DE5AD8BB6F9D4A08AD1 /* KKBOXOpenAPISwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKBOXOpenAPISwift-Info.plist"; sourceTree = "<group>"; };
+		F1867277A40C2309AA0C0B9429B80C53 /* KKBOXOpenAPISwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKBOXOpenAPISwift-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD1DF9DE3479DF4C47680D29A846306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FDEE62339D5B4645CFDE807548C84F /* Foundation.framework in Frameworks */,
+				0E2E2B01FE4D6F94CF6EDBC168E2B0A8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1471B7EADCE3DB3C99DD13842BD6C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAAD6AE0F65675DA6FBE075AABD7A64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45EDC295214FADBD80FD4CE8DF51F5E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEE7FDE0AB274D8DA2F5309E41892C70 /* KKBOXOpenAPISwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E80A653C7ADDD8DADAC563E22401079 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7CC46E726CA82A6686545C567705E7B /* Pods-AppSchoolKKboxRick */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6CEDACFB60B773C7BAA2FF08A8EA9D5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9786A8179B077506B880E506F0D35201 /* KKBOXOpenAPISwift.modulemap */,
+				908F2A86B3A2107194FE2D5166FBF231 /* KKBOXOpenAPISwift.xcconfig */,
+				A465E21DB89BB598D80B36FB516BB96C /* KKBOXOpenAPISwift-dummy.m */,
+				E7743D340F9B6DE5AD8BB6F9D4A08AD1 /* KKBOXOpenAPISwift-Info.plist */,
+				B3C6BAF8D4EA38BBF4BEF8D71C601D7B /* KKBOXOpenAPISwift-prefix.pch */,
+				F1867277A40C2309AA0C0B9429B80C53 /* KKBOXOpenAPISwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KKBOXOpenAPISwift";
+			sourceTree = "<group>";
+		};
+		AF76BF5DA8548B733AACE677B58C7554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				239B21A666F64D5F1C50F9C2C9BC94B6 /* KKBOXOpenAPISwift.framework */,
+				89A86DD6A38DCAB16BC941720B7DD39E /* Pods_AppSchoolKKboxRick.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE7FDE0AB274D8DA2F5309E41892C70 /* KKBOXOpenAPISwift */ = {
+			isa = PBXGroup;
+			children = (
+				D91E69C1B1AB146F3437F95DAAABCC52 /* KKBOXOpenAPI.swift */,
+				5EB2AAB08385C812F285E7EC18221EC3 /* KKBOXOpenAPIPrivateTypes.swift */,
+				46E27BC7F8A40DE9E8771DC51EB16CE9 /* KKBOXOpenAPITypes.swift */,
+				6CEDACFB60B773C7BAA2FF08A8EA9D5F /* Support Files */,
+			);
+			name = KKBOXOpenAPISwift;
+			path = KKBOXOpenAPISwift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				45EDC295214FADBD80FD4CE8DF51F5E1 /* Pods */,
+				AF76BF5DA8548B733AACE677B58C7554 /* Products */,
+				5E80A653C7ADDD8DADAC563E22401079 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7CC46E726CA82A6686545C567705E7B /* Pods-AppSchoolKKboxRick */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA4E7B4A011C877BAB87F3B242F619 /* Pods-AppSchoolKKboxRick.modulemap */,
+				79A2757D40EC176E6950F07140464997 /* Pods-AppSchoolKKboxRick-acknowledgements.markdown */,
+				8120CB429CF57108D0D1784D3C35F99D /* Pods-AppSchoolKKboxRick-acknowledgements.plist */,
+				AF8C2EBA5CF44006D0D481450E053A33 /* Pods-AppSchoolKKboxRick-dummy.m */,
+				9400538B0F1526090E590A3E882F91E0 /* Pods-AppSchoolKKboxRick-frameworks.sh */,
+				129DC498E38F8CB57CCDC62D4628E8F2 /* Pods-AppSchoolKKboxRick-Info.plist */,
+				2FF5EA5B9105FE5E349F2C22523A3BAF /* Pods-AppSchoolKKboxRick-umbrella.h */,
+				80C5866C13F32D037E99AC8CC80E2931 /* Pods-AppSchoolKKboxRick.debug.xcconfig */,
+				881A554F6DC0DCC0D3DD0399DFF371AC /* Pods-AppSchoolKKboxRick.release.xcconfig */,
+			);
+			name = "Pods-AppSchoolKKboxRick";
+			path = "Target Support Files/Pods-AppSchoolKKboxRick";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7EE97F2CD96384BF768B906B64B58B9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3BB5578E2335136B7A78F9356F5E4F /* KKBOXOpenAPISwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7026004000E73AC524559DA2628CF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45685AC43CBE330D34B596EA8F60B846 /* Pods-AppSchoolKKboxRick-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AFCEC34391670838A54E4438FFD88A18 /* KKBOXOpenAPISwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544A338485A5E9A2918D683025500B35 /* Build configuration list for PBXNativeTarget "KKBOXOpenAPISwift" */;
+			buildPhases = (
+				7EE97F2CD96384BF768B906B64B58B9A /* Headers */,
+				7D9BA372A47E43F7B128EB0F1FE079D5 /* Sources */,
+				AFD1DF9DE3479DF4C47680D29A846306 /* Frameworks */,
+				5BF96423AE332D6431CE59795BF90AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKBOXOpenAPISwift;
+			productName = KKBOXOpenAPISwift;
+			productReference = 239B21A666F64D5F1C50F9C2C9BC94B6 /* KKBOXOpenAPISwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC576A4CD4F0A0A9C748E0D1F0DE830F /* Pods-AppSchoolKKboxRick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0789036BAA9A8F199EC2AB7667730123 /* Build configuration list for PBXNativeTarget "Pods-AppSchoolKKboxRick" */;
+			buildPhases = (
+				FE7026004000E73AC524559DA2628CF3 /* Headers */,
+				1A80A024E815AFC354644ABAAD75797B /* Sources */,
+				F1471B7EADCE3DB3C99DD13842BD6C89 /* Frameworks */,
+				499D3A77484580C66F8523156FD2D5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D240FC186A1CC1A6499162FCDBDCE63F /* PBXTargetDependency */,
+			);
+			name = "Pods-AppSchoolKKboxRick";
+			productName = "Pods-AppSchoolKKboxRick";
+			productReference = 89A86DD6A38DCAB16BC941720B7DD39E /* Pods_AppSchoolKKboxRick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF76BF5DA8548B733AACE677B58C7554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCEC34391670838A54E4438FFD88A18 /* KKBOXOpenAPISwift */,
+				FC576A4CD4F0A0A9C748E0D1F0DE830F /* Pods-AppSchoolKKboxRick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499D3A77484580C66F8523156FD2D5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF96423AE332D6431CE59795BF90AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A80A024E815AFC354644ABAAD75797B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF419DE0AD9627BBE8F27D6FBF7F43B /* Pods-AppSchoolKKboxRick-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9BA372A47E43F7B128EB0F1FE079D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303677812E8C9BC76D2EB10F5C1001D2 /* KKBOXOpenAPI.swift in Sources */,
+				8DD1180814C8474B4294469D66BAF532 /* KKBOXOpenAPIPrivateTypes.swift in Sources */,
+				79908C9021ABA742B2E29150565A928B /* KKBOXOpenAPISwift-dummy.m in Sources */,
+				047700ACEF7F6485B31F8826EDE98D7E /* KKBOXOpenAPITypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D240FC186A1CC1A6499162FCDBDCE63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KKBOXOpenAPISwift;
+			target = AFCEC34391670838A54E4438FFD88A18 /* KKBOXOpenAPISwift */;
+			targetProxy = 52DB268AE6D46939C094912A0696F40A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8AD28197A8D7CACD41E37DF32F784FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881A554F6DC0DCC0D3DD0399DFF371AC /* Pods-AppSchoolKKboxRick.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppSchoolKKboxRick/Pods-AppSchoolKKboxRick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppSchoolKKboxRick/Pods-AppSchoolKKboxRick.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B6F094AEA378996E1C25FC4ADB73802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908F2A86B3A2107194FE2D5166FBF231 /* KKBOXOpenAPISwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKBOXOpenAPISwift/KKBOXOpenAPISwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKBOXOpenAPISwift/KKBOXOpenAPISwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KKBOXOpenAPISwift/KKBOXOpenAPISwift.modulemap";
+				PRODUCT_MODULE_NAME = KKBOXOpenAPISwift;
+				PRODUCT_NAME = KKBOXOpenAPISwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CE5BD1C574EA935E7A3E1D562BB875C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908F2A86B3A2107194FE2D5166FBF231 /* KKBOXOpenAPISwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKBOXOpenAPISwift/KKBOXOpenAPISwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKBOXOpenAPISwift/KKBOXOpenAPISwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KKBOXOpenAPISwift/KKBOXOpenAPISwift.modulemap";
+				PRODUCT_MODULE_NAME = KKBOXOpenAPISwift;
+				PRODUCT_NAME = KKBOXOpenAPISwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F173E1CAEB28DE5F54C4FD56B889BA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C5866C13F32D037E99AC8CC80E2931 /* Pods-AppSchoolKKboxRick.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppSchoolKKboxRick/Pods-AppSchoolKKboxRick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppSchoolKKboxRick/Pods-AppSchoolKKboxRick.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0789036BAA9A8F199EC2AB7667730123 /* Build configuration list for PBXNativeTarget "Pods-AppSchoolKKboxRick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F173E1CAEB28DE5F54C4FD56B889BA7C /* Debug */,
+				8AD28197A8D7CACD41E37DF32F784FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544A338485A5E9A2918D683025500B35 /* Build configuration list for PBXNativeTarget "KKBOXOpenAPISwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6F094AEA378996E1C25FC4ADB73802 /* Debug */,
+				8CE5BD1C574EA935E7A3E1D562BB875C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
